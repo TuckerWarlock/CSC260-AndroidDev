@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#5b5b5b"
+    >
+
+    <GridLayout
+        android:id="@+id/game_grid"
+        android:layout_width="wrap_content"
+        android:layout_height="400dp"
+        android:background="#5b5b5b"
+        android:columnCount="3"
+        android:rowCount="3"
+        android:layout_marginRight="10dp">
+
+
+        <Button
+            android:id="@+id/button_00"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_margin="5dp"
+            android:textSize="75sp" />
+
+        <Button
+            android:id="@+id/button_01"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:layout_margin="5dp"
+            android:textSize="75sp" />
+
+        <Button
+            android:id="@+id/button_02"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_row="0"
+            android:layout_column="2"
+            android:layout_margin="5dp"
+            android:textSize="75sp" />
+
+        <Button
+            android:id="@+id/button_10"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:layout_margin="5dp"
+            android:textSize="75sp" />
+
+        <Button
+            android:id="@+id/button_11"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:layout_margin="5dp"
+            android:textSize="75sp" />
+
+        <Button
+            android:id="@+id/button_12"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_row="1"
+            android:layout_column="2"
+            android:layout_margin="5dp"
+            android:textSize="75sp" />
+
+        <Button
+            android:id="@+id/button_20"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:layout_margin="5dp"
+            android:textSize="75sp" />
+
+        <Button
+            android:id="@+id/button_21"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_row="2"
+            android:layout_column="1"
+            android:layout_margin="5dp"
+            android:textSize="75sp" />
+
+        <Button
+            android:id="@+id/button_22"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_row="2"
+            android:layout_column="2"
+            android:layout_margin="5dp"
+            android:textSize="75sp" />
+
+    </GridLayout>
+
+    <Button
+        android:id="@+id/Reset"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:text="Reset"
+        android:textSize="25dp"
+        android:layout_alignParentBottom="true"
+        android:background="#ff8888"/>
+
+    <Button
+        android:id="@+id/Play"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="450dp"
+        android:text="Play"
+        android:textSize="25dp"
+        android:background="#139900"
+        android:textColor="#ffffff"/>
+
+
+</RelativeLayout>

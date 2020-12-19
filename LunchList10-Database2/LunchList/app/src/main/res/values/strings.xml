@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Tucker - Lunch List 10 - Database 2</string>
+    <string name="name_label">Name:</string>
+    <string name="address_label">Address:</string>
+    <string name="type_label">Type:</string>
+    <string name="note">Note:</string>
+    <string name="delivery_label">Delivery</string>
+    <string name="sitdown_label">Sit-Down</string>
+    <string name="takeout_label">Take-Out</string>
+    <string name="note_label">Raise Toast</string>
+    <string name="save_label">Save</string>
+    <string name="settings_label">Settings</string>
+    <string name="exit_label">Exit</string>
+    <string name="icon_description">Icon</string>
+    <string name="cancel_label">Cancel</string>
+    <string name="about_label">About</string>
+    <string name="play_music_label">Play Music</string>
+    <string name="lunch_settings_label">Lunch List Settings</string>
+    <string name="preference_label">Play Music</string>
+    <string name="about_preference_label">Play background music in the about screen.</string>
+    <string name="add_label">Add Restaurant</string>
+
+
+</resources>
